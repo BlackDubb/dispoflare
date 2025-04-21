@@ -9,7 +9,7 @@ compatibility_date = "2024-03-26"
 # The necessary secrets are:
 CLOUDFLARE_API_TOKEN = "Ml37WaBHAhYQxK4SDoQprvD_0yHwFBsVBRePZlzt"
 CLOUDFLARE_ACCOUNT_ID = "3ba6f7c32bc179aec5ee0d8935fddb36"
-# - SENTRY_DSN
+SENTRY_DSN= "cflms.freeprojecttest.dpdns.org"
 # Run `echo <VALUE> | wrangler secret put <NAME>` for each of these
 
 [triggers]
