@@ -1,5 +1,4 @@
 name = "dispoflare"
-pages_build_output_dir = "public" 
 # workers_dev = true
 main = "workers/index.ts"
 # https://developers.cloudflare.com/workers/platform/compatibility-dates
