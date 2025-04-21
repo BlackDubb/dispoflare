@@ -1,5 +1,5 @@
 name = "dispoflare"
-
+pages_build_output_dir = "public" 
 # workers_dev = true
 main = "workers/index.ts"
 # https://developers.cloudflare.com/workers/platform/compatibility-dates
@@ -11,7 +11,7 @@ CLOUDFLARE_API_TOKEN = "Ml37WaBHAhYQxK4SDoQprvD_0yHwFBsVBRePZlzt"
 CLOUDFLARE_ACCOUNT_ID = "3ba6f7c32bc179aec5ee0d8935fddb36"
 SENTRY_DSN= "cflms.freeprojecttest.dpdns.org"
 # Run `echo <VALUE> | wrangler secret put <NAME>` for each of these
-pages_build_output_dir = "public" 
+
 
 [triggers]
 crons = [ "0 */12 * * *" ]
